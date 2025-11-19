@@ -1,0 +1,53 @@
+/* Reinicio básico */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilos generales del body */
+body{
+    font-family: poppins, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+/* Titulos */
+h1,h2,h3,h4,h5,h6{
+    color: #2b6777;
+    margin-bottom: 10px;
+}
+/* Parrafos */
+p{
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+/*Listas  */
+ul,ol {
+    margin: 20px;
+    text-align: center;
+    list-style-position: inside;
+}
+li {
+    margin-bottom: 8px;
+}
+a{
+    color: #2b6777;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: #52ab98;
+    text-decoration: underline;
+}
+iframe{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 5px solid #ececec;
+}
